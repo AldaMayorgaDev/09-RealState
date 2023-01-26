@@ -11,6 +11,41 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__barra contenedor">
+            <div class="header__logo">
+                <img src="./build/img/logo.svg" alt="Logo RealState" title="Logo RealState">
+            </div>
+
+            <nav class="navegacion">
+                <a href="#" class="navegacion__link">Nosotros</a>
+                <a href="#" class="navegacion__link">Propiedades</a>
+                <a href="#" class="navegacion__link">Blog</a>
+                <a href="#" class="navegacion__link">Testimoniales</a>
+                <a href="#" class="navegacion__link">Contacto</a>
+            </nav>
+        </div>
+        <div class="contenedor">
+            <div class="header__contenido">
+                <h1 class="header__heading">Encuentra tu casa de lujo al mejor precio.</h1>
+                <p class="header__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo exercitationem expedita explicabo pariatur rem, optio animi incidunt magni.</p>
+                <picture>
+                <source
+                     
+                     srcset="./build/img/imagenHeader.avif" 
+                     type="image/avif">
+                <source
+                     
+                     srcset="./build/img/imagenHeader.webp" 
+                     type="image/webp">
+                <source
+                     srcset="./build/img/imagenHeader.jpg" 
+                     type="image/jpeg">
+                <img loading="lazy" decoding="async" src="../build/img/imagenHeader.jpg" lazyalt="imagen"  alt="Imagen Header" title="Imagen Header" class="header__imagen">
+                </picture>
+            </div>
+        </div>
+    </header> <!-- Fin Header -->
 
 </body>
 </html>
